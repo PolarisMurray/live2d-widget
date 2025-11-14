@@ -17,6 +17,7 @@
   "scripts": {
     "build": "tsc && rollup -c rollup.config.js",
     "build-dev": "rollup -c rollup.config.js -w",
+    "build:extension": "npm run build && node chrome-extension/copy-assets.js",
     "eslint": "eslint src/",
     "prepublishOnly": "npm run build"
   },

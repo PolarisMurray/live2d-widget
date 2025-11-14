@@ -1,0 +1,5 @@
+# Chrome Extension build artifacts
+dist/
+assets/*.png
+!assets/ICONS_README.md
+
